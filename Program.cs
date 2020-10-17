@@ -691,63 +691,8 @@ namespace Snake_Game
 
             timer.Interval = 400;
             timer.Elapsed += Timer_Elapsed;
-            while (true)
-            {
-
-                timer.Start();
-                ConsoleKeyInfo key;
-
-                key = Console.ReadKey();
-
-                try
-                {
-                    while (key.Key == ConsoleKey.LeftArrow)
-                    {
-                        line[realLine][numSymGo] = '<';
-                        line[realLine][numSymGo + 1] = ' ';
-                        numSymGo -= 1;
-
-
-                        Thread.Sleep(500);
-                    }
-
-                    while (key.Key == ConsoleKey.RightArrow)
-                    {
-                        line[realLine][numSymGo] = '>';
-                        line[realLine][numSymGo - 1] = ' ';
-                        numSymGo += 1;
-                        Thread.Sleep(500);
-                    }
-
-                    while (key.Key == ConsoleKey.UpArrow)
-                    {
-                        line[realLine][numSymGo] = '^';
-                        line[realLine + 1][numSymGo] = ' ';
-                        realLine -= 1;
-                        Thread.Sleep(500);
-                    }
-
-                    while (key.Key == ConsoleKey.DownArrow)
-                    {
-                        line[realLine][numSymGo] = '▽';
-                        line[realLine - 1][numSymGo] = ' ';
-                        realLine += 1;
-                        Thread.Sleep(500);
-                    }
-
-                }
-                catch (ArgumentOutOfRangeException)
-                {
-                    Console.WriteLine("Вы проиграли((");
-                    timer.Stop();
-                }
-                catch (IndexOutOfRangeException)
-                {
-                    Console.WriteLine("Вы проиграли((");
-                    timer.Stop();
-                }
-
-            }
+            timer.Start();
+            
         }
 
         public static char[] setCharsGlob()
