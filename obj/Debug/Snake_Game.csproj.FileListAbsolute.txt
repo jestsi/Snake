@@ -1,0 +1,9 @@
+C:/Users/Max/Desktop/projects/cSharp/Snake_Game/Snake_Game/bin/Debug/Snake_Game.exe.config
+C:/Users/Max/Desktop/projects/cSharp/Snake_Game/Snake_Game/bin/Debug/Snake_Game.exe
+C:/Users/Max/Desktop/projects/cSharp/Snake_Game/Snake_Game/bin/Debug/Snake_Game.pdb
+C:/Users/Max/Desktop/projects/cSharp/Snake_Game/Snake_Game/obj/Debug/Snake_Game.csprojAssemblyReference.cache
+C:/Users/Max/Desktop/projects/cSharp/Snake_Game/Snake_Game/obj/Debug/Snake_Game.csproj.CoreCompileInputs.cache
+C:/Users/Max/Desktop/projects/cSharp/Snake_Game/Snake_Game/obj/Debug/Snake_Game.exe
+C:/Users/Max/Desktop/projects/cSharp/Snake_Game/Snake_Game/obj/Debug/Snake_Game.pdb
+/home/max/Рабочий стол/snake/Snake_Game/obj/Debug/Snake_Game.exe
+/home/max/Рабочий стол/snake/Snake_Game/obj/Debug/Snake_Game.pdb
